@@ -1,6 +1,6 @@
 [Learn More About Vapor](http://beta.docs.vapor.codes/getting-started/hello-world/) Getting Started With !
 
-[Run Swift On GCloud](https://cloud.google.com/community/tutorials/run-swift-vapor-on-google-cloud?authuser=1) - Vapro and Google Cloud!
+[Run Swift On GCloud](https://cloud.google.com/community/tutorials/run-swift-vapor-on-google-cloud?authuser=1) - Vapor and Google Cloud!
 
 # VaporGCP App
 
@@ -14,7 +14,10 @@
     ```
     swift package generate-xcodeproj
     ```
-
+    Or
+    ```
+    vapor xcode
+    ```
 
 # Google Cloud Configurations
 
@@ -42,5 +45,3 @@
     ```
     gcloud app browse
     ```
-
-
